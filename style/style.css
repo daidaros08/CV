@@ -13,7 +13,7 @@ body {
     display:flex;
     flex-direction: column;
     background: url('../img/textura.jpg');
-    
+    flex-wrap: wrap;
     justify-content: space-around;
     
     
@@ -34,7 +34,7 @@ header {
     background: var(--fondo);
     width: 80%;
     margin: auto;
-    height: 20vh;
+    height: 10vw;
     font-family: var(--titulo);
     text-align: center;
 }
@@ -47,7 +47,6 @@ header h3{
     display:flex;
     flex-direction: column;
     align-items:center;
-
     font-size: 3vw;
     
 }
@@ -58,6 +57,7 @@ header h3{
     background:var(--fondo);
     width: 80%;
     margin: auto;
+    margin-top:3%;
     justify-content: space-around;
     font-family: var(--texto);
     font-size: 2.2vw;
@@ -85,6 +85,7 @@ header h3{
     height: 30vw;;
     text-align: center;
     margin:auto;
+    margin-top:3%;
     
     
     
@@ -107,6 +108,7 @@ header h3{
     width:80%;
     text-align: center;
     margin:auto;
+    margin-top:3%;
     border-radius: 2vw;
     
    
@@ -116,6 +118,7 @@ header h3{
     display:flex;
     flex-direction: column;
     padding:1%;
+    margin-top:3%;
 }
 
 
@@ -147,6 +150,7 @@ header h3{
     align-items:center;
     
     
+    
 }
 
 .imagencv {
@@ -175,6 +179,7 @@ header h3{
     
 }
 #contact {
+    
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -182,7 +187,7 @@ header h3{
     width: 80%;
     height:35vw;
     margin:auto;
-    
+    margin-top:3%;
     font-size: 2.9vw;
     
 }
@@ -226,6 +231,7 @@ header h3{
     /* background:var(--fondo); */
     width: 50%;
     margin:auto;
+    margin-top:3%;
     border-radius: 2vw;
     font-family: var(--titulo);
     font-size: 1.5vw;
