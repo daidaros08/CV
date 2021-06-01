@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/felibb.ico">
+    <link rel="stylesheet" href="style\style.css"> 
+    <title>Mi cv</title>
+
+</head>
+<body>
+    <header>
+        <h1>Sebastián David Cabrera</h1>
+        <h3> PROGRAMADOR WEB</h3>
+    </header>
+    <br>
+    <br>
+
+    <nav class=menu> 
+        <a href="#about" class=link>Quien Soy</a>
+        <a href="#cv" class=link>Qué Aprendí</a>
+        <a href="#contact" class=link> Contacto</a>
+        <a href="#redes" class=link>Redes</a>
+         
+    </nav>
+    <!-- <aside id="subir"><a href="#about">Inicio</a></aside> -->
+
+    <br><br><br>
+    <figure class=imagenmia>
+        <img class=yop src="img/yo2.jpeg" alt="yo durante mis practicas">
+        <figcaption id=imgdesc> </figcaption>
+    </figure>
+    <br><br><br>
+
+    <section id=about>
+    
+       
+        <article id=articulo>
+       
+        
+        <p>Hola! Soy <strong>Sebastián Cabrera</strong>, programador en aprendizaje y esta web es un pequeño currículum.<br><br>
+
+        Estoy terminando la carrera de Letras en la Universidad Nacional del Nordeste. 
+        <br><br>
+        
+        Actualmente me encuentro desarrollando la página web de una tienda de mascotas.
+        <br><br>
+        Mi recorrido en el mundo de la programación inció con la primer etapa de <strong>Argentina Programa</strong>, donde aprendí los fundamentos de la programación con pseudocódigo, un poquito de Js y Ruby. Luego conocí Freecodecamp y aprendí HTML y CSS.<br> Actualmente me encuentro aprendiendo PHP y Python en Polotic.</p>
+    </article>
+
+    </section>
+
+    <br><br><br>
+    <div id=cv>
+        <h2>
+            Mi recorrido en programación
+        </h2>
+        <div class=contenedor>
+            <figure class=imagencv>
+                <a href="https://mumuki.io/paths" target="_blank"><img src="img/mumuki.png" alt=""></a>
+                    <figcaption>Argentina Programa</figcaption>
+            </figure>
+            <figure class=imagencv>
+                <a href="https://www.freecodecamp.org/espanol/daidaros08" target="_blank">
+                    <img src="img/freecodecamp2.png" alt="">    </a>          <figcaption>Perfil de Freecodecamp</figcaption>
+                
+            </figure>
+            <figure class=imagencv>
+                <a href="https://polotic.misiones.gob.ar/" target="_blank">
+                    <img src="img/polotic1.jpg" alt="">   </a>       <figcaption>Sitio Web Polotic</figcaption>
+            
+            </figure>
+            
+        </div>
+    </div><br><br><br>
+
+        <div id='contact'>
+     <form action='datos.php'   method='POST' > 
+        
+            
+        
+            <label for='nombre'>Tu nombre</label>
+            <input class='preg' type="text" name='nombre' id='nombre' required> 
+            
+            <label for='mail' >Correo Electrónico</label>
+            <input class='preg' type="mail" name='mail' id='mail' required>
+            
+            <label for='comentario'>Comentarios sobre mi sitio </label>
+            <textarea class='preg' name='mensaje' id='comentario' rows="3" >  </textarea>
+            <input class='preg' type="submit" value="Contactame">
+
+       
+        
+    </form>
+</div>
+
+
+    <br><br><br>
+    <footer id=redes>
+
+        
+            <a href="https://github.com/daidaros08/daidaros08" target="_blank"><img src="img/github.png" alt="" class='imgcontact'></a>            
+            <a href="https://www.linkedin.com/in/sebasti%C3%A1n-cabrera-015242a8/" target="_blank"><img src="img/linkedin.png" class='imgcontact'id="linkedin"> 
+            <a href="#"><img src="img/mail.png" class='imgcontact'></a>
+            </a>
+            
+       
+    </footer>
+</body>
+</html>

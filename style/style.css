@@ -1,0 +1,258 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+:root{
+    --titulo: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --texto: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --descripcion: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fondo: linear-gradient(90deg, #5AAAA9, #E4DED2);
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    background: url('../img/textura.jpg');
+    
+    justify-content: space-around;
+    
+    
+}
+/* 
+
+   font-size del html 16px
+    em = padre
+    rem = html
+    %
+ tamaño de vista
+    vw = view width
+    vh = view height*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--fondo);
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+    font-family: var(--titulo);
+    text-align: center;
+}
+header h1 {
+    font-size: 2.8vw; 
+   
+}
+
+header h3{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    font-size: 3vw;
+    
+}
+
+.menu {
+    display:flex;
+    flex-direction:row;    
+    background:var(--fondo);
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    font-family: var(--texto);
+    font-size: 2.2vw;
+    border-radius: 2vw;    
+    
+}
+.menu a{
+    color: black;
+    font-weight:bold;
+    text-decoration: none;
+    
+}
+
+.menu a:hover{
+    font-size: 2.3vw;
+    background-color: #17687D;
+    color: white;
+}
+
+#subir {
+
+}
+.imagenmia {
+    width: 50%;
+    height: 30vw;;
+    text-align: center;
+    margin:auto;
+    
+    
+    
+}
+
+
+.imagenmia .yop {
+    height:30vw;
+    width:30vw;
+    border-radius: 50%;
+    border:black;
+    
+}
+.imagenmia #imgdesc {
+    font-size: 1vw;
+    font-family: var(--descripcion);
+}
+#about {
+    background: var(--fondo);
+    width:80%;
+    text-align: center;
+    margin:auto;
+    border-radius: 2vw;
+    
+   
+    
+}
+#articulo {
+    display:flex;
+    flex-direction: column;
+    padding:1%;
+}
+
+
+#about p{
+    font-size:1.9vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+#cv {
+    background:var(--fondo);
+    width: 80%;
+    margin:auto;
+    border-radius: 2vw;
+}
+
+#cv h2 {
+    font-size: 2.9vw;
+    font-family: var(--titulo);
+    text-align: center;
+    height: 10%;
+}
+.contenedor{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    height: 20vw; 
+    align-items:center;
+    
+    
+}
+
+.imagencv {
+    font-family: var(--descripcion);
+    font-size: 1.5vw;
+    text-align:center;
+    
+    
+    
+}
+
+.imagencv img{
+    margin:auto;
+    width: 14vw;
+    height: 15vw; 
+    
+}
+
+.imagencv:hover {
+    background-color:var(--fondo);
+    margin-bottom: 2vw;
+    
+}
+.imagencv:hover a {
+    color: whitesmoke;
+    
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+    width: 80%;
+    height:35vw;
+    margin:auto;
+    
+    font-size: 2.9vw;
+    
+}
+#contact form {
+    background:var(--fondo);
+    border-radius: 2vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:60%;
+    height:100%;
+    margin: auto;
+    margin-bottom:;
+}
+#contact legend{
+    font-family: var(--texto);
+}
+#contact label{
+    width: 100%;
+    margin:auto;
+    text-align:center;
+    font-family: var(--titulo);
+    font-size:2vw;
+}
+
+#contact .preg {
+    width: 30vw;
+    font-size: 2vw;
+    margin: auto;
+    background:var(--fondo)
+
+}
+#contact .preg:hover {
+    width:35vw;
+    background:#17687D;
+    color:whitesmoke;
+}
+
+#redes{
+    /* background:var(--fondo); */
+    width: 50%;
+    margin:auto;
+    border-radius: 2vw;
+    font-family: var(--titulo);
+    font-size: 1.5vw;
+    height: 10vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+#redes h2 {
+    text-align: center;
+}
+
+.imgcontact {
+    width:7vw;
+    height:8vw;
+    border-radius: 20%;
+    
+
+}
+/* #redes #linkedin {
+    width:9vw;
+
+} */
+
+.imgcontact:hover {
+    width:8vw;
+    height:9vw;
+
+}
